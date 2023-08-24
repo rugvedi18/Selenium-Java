@@ -12,8 +12,8 @@ public class IncrementOperator {
         // decrement operator
         int x = 10, y = 10;
         System.out.println("Before post decrement x : " + x);
-        System.out.println("Post decrement x++ : " + x--); // post decrement
+        System.out.println("Post decrement x-- : " + x--); // post decrement
         System.out.println("After post decrement x : " + x + " Before pre decrement y : " + y);
-        System.out.println("Pre decrement ++y : " + --y); // pre decrement
+        System.out.println("Pre decrement --y : " + --y); // pre decrement
     }
 }

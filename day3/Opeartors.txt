@@ -1,0 +1,23 @@
+## Types of Operators :-
+
+1. Arithmetic Operators     +, -, *, /, %
+2. Relational/Comparison    >, >=, <, <=, !=, ==
+3. Logical Operators        &&, ||, !
+4. Increment/Decrement      ++, --
+5. Assignment Operators     =, +=, -+, *=, /=, %=
+6. Conditional/Ternary      ?, :
+
+## Categories :-
+1. Unary Operator - Operator that works with a single variable (!, ++, --, +=, -+, *=, /=, %=)
+2. Binary Operator - Operator that works with double variables (+, -, *, /, %, >, >=, <, <=, !=, ==, &&, ||, =)
+3. Ternary Operator - Operator that works with three variables (?, :)
+
+
+## Logical Operators :-
+
+  x         y       x&&y       x||y       !x       !y
+---------------------------------------------------------
+True      True      True       True      False    False
+True      False     False      True               True
+False     True      False      True      True
+False     False     False      False

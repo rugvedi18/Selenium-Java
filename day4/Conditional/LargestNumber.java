@@ -1,4 +1,4 @@
-package day4;
+package day4.Conditional;
 
 public class LargestNumber {
     public static void main(String[] args) {

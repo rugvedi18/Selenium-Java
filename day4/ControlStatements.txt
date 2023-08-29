@@ -2,4 +2,4 @@
 
 1. Conditional Statements - if, if else, nested if else, switch case
 2. Looping / Iterative Statements
-3. Jumping Statements
+3. Jumping Statements 

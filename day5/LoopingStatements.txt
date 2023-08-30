@@ -1,7 +1,16 @@
 Objetive :- To execute same set of statements repetatively/multiple times.
 
 Types of looping/iterative statements :-
+
 1. for Loop
+
 2. while
+while(condition)
+{
+    statement;
+    increment;
+}
+
 3. do while
+
 4. foreach/enhanced for loop

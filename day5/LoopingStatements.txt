@@ -3,14 +3,21 @@ Objetive :- To execute same set of statements repetatively/multiple times.
 Types of looping/iterative statements :-
 
 1. for Loop
+-----------------------------------------
+2. while (Top-down Approach - loop's condition is checked before entering the loop body)
 
-2. while
 while(condition)
 {
     statement;
-    increment;
+    increment/decrement;
 }
+-----------------------------------------
+3. do while (Bottom-up Approach - code inside the loop body is executed before the condition is evaluated)
 
-3. do while
-
+do
+{
+statements;
+increment/decrement;
+}while(condition);
+-----------------------------------------
 4. foreach/enhanced for loop

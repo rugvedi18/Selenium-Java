@@ -1,14 +1,21 @@
+## Condtional Statements :-
+
 Objetive :- To execute same set of statements repetatively/multiple times.
 
 Types of looping/iterative statements :-
 
-1. for Loop
+1. for Loop - initialization, condition & incrementation/decrementation all three in single line
+
+for(int i=1; i <= 3; i++)
+{
+    statements;
+}
 -----------------------------------------
 2. while (Top-down Approach - loop's condition is checked before entering the loop body)
 
 while(condition)
 {
-    statement;
+    statements;
     increment/decrement;
 }
 -----------------------------------------

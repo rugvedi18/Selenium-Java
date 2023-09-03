@@ -10,7 +10,7 @@ for(int i=1; i <= 3; i++)
 {
     statements;
 }
------------------------------------------
+----------------------------------------------------------------------------------
 2. while (Top-down Approach - loop's condition is checked before entering the loop body)
 
 while(condition)
@@ -18,7 +18,7 @@ while(condition)
     statements;
     increment/decrement;
 }
------------------------------------------
+----------------------------------------------------------------------------------
 3. do while (Bottom-up Approach - code inside the loop body is executed before the condition is evaluated)
 
 do
@@ -26,5 +26,21 @@ do
 statements;
 increment/decrement;
 }while(condition);
------------------------------------------
-4. foreach/enhanced for loop
+----------------------------------------------------------------------------------
+4. foreach/enhanced for loop (used in arrays and collections)
+
+
+----------------------------------------------------------------------------------
+To travel by -
+Bike - pre requisits are source point, destination and fuel so we will use for loop
+Bus  - pre requisits are bus with particular route and then ticket
+Flight - pre requisits are first book the ticket and then take a flight
+
+
+----------------------------------------------------------------------------------
+Assignments :-
+1. Reverse a number 
+2. Palindrome number 121 121
+3. Count number of digits in a number
+4. Count number of even and odd digits
+5. Find sum of digits in a number 

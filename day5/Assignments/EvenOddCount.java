@@ -1,3 +1,4 @@
+package day5.Assignments;
 import java.util.Scanner;
 
 public class EvenOddCount {

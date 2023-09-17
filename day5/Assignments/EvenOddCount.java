@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class EvenOddCount {
 
     public static void main(String []args) {
+        // 4. Count number of even and odd digits
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number : ");

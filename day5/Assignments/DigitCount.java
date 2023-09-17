@@ -1,9 +1,12 @@
 package day5.Assignments;
+
 import java.util.Scanner;
 
 public class DigitCount {
 
-    public static void main(String []args) {
+    public static void main(String[] args) {
+        // 3. Count number of digits in a number
+
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number : ");

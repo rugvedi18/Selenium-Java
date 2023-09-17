@@ -1,0 +1,9 @@
+Definition :- An array is a collection of items of same data type stored at contiguous memory locations.
+
+Syntax :- int a[] = new int[sizeOfAnarray];
+
+Use :- we can store multiple values in a single variable.
+
+Types of arrays :-
+1. Single dimensional - it has rows
+2. Two dimensional / Multidimensional - it has rows and columns

@@ -22,5 +22,7 @@ public class DigitCount {
         // ++count;
         // }
         // System.out.print("Number of digits : " + count)
+
+        sc.close();
     }
 }

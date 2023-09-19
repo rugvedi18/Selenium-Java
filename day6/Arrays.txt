@@ -1,5 +1,5 @@
 Definition :- An array is a collection of items of same data type stored at contiguous memory locations.
-
+              It is a predefined class.
 Syntax :- int a[] = new int[sizeOfAnarray];
 
 Use :- we can store multiple values in a single variable.

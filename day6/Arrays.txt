@@ -7,3 +7,14 @@ Use :- we can store multiple values in a single variable.
 Types of arrays :-
 1. Single dimensional - it has rows
 2. Two dimensional / Multidimensional - it has rows and columns
+
+Object Array - predefined class in java which contains any type of data
+Object a[] = new Object[5]
+
+----------------------------------------------------------------------------------
+Assignments :-
+1. Find sum of elements in array 
+    a = {1,2,3} SUM : 6
+2. Print even and odd numbers from array
+3. Search an element in array
+4. Sorting elemn in array

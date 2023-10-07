@@ -1,0 +1,7 @@
+String is predefined class
+
+String name = "John";
+String name = new String("John");  // where name is object of String class
+
+* String is non premitive data type and int is premitive data type
+* String uses s.length() and array usese a.length

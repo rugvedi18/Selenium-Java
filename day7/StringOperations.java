@@ -40,5 +40,6 @@ public class StringOperations {
         /// toUppercase() and toLowercase()
         System.out.println(s5.toUpperCase()); // ABC_@GMAIL.COM
         System.out.println(s4.toLowerCase()); // welcome
+
     }
 }

@@ -1,3 +1,5 @@
+package day5.LoopingNew;
+
 public class DoWhile {
     public static void main(String[] args) {
         // Example 1 : print from 1 to 10 numbers

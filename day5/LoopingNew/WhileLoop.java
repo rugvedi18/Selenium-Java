@@ -1,3 +1,5 @@
+package day5.LoopingNew;
+
 public class WhileLoop {
     public static void main(String[] args) {
 

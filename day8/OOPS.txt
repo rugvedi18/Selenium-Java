@@ -1,0 +1,25 @@
+Object Oriented Programming Concept
+
+Class - 
+1. Class is a collection of attributes and behavior.
+2. It is a logical entity and it does not occupy any space in memory. (e.g - Animal)
+3. A User-defined data type that holds data members and functions whose access can be specified as private, public, or protected.
+4. Class containes variables and methods.
+
+Object - 
+1. Object is an instance of a class.
+2. It is a physical entity and it occupies space in memory. (e.g - Dog)
+3. Objects are independent.
+4. We can create any number of objects for one class.
+
+Methods
+
+
+
+className object = new classNmae()
+class Employee {
+    // variables
+    // methods
+}
+Employee emp1 = new Employee()
+Employee emp2 = new Employee()

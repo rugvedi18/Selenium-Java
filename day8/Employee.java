@@ -1,8 +1,7 @@
 package day8;
 
 public class Employee {
-
-    // variables declaration
+    // Approach 1: access variables using reference variable
     int eid;
     String ename;
     String job;
@@ -15,23 +14,4 @@ public class Employee {
         System.out.println("Emp job : " + job);
         System.out.println("Emp salary : " + esal);
     }
-
-    // To execute the Java class, you need to have a main method.
-    // Main method is moved to EmployeeMain.java
-    // public static void main(String[] args) {
-    // Employee emp1 = new Employee();
-    // emp1.eid = 101;
-    // emp1.ename = "John";
-    // emp1.esal = 50000;
-    // emp1.job = "Engineer";
-    // emp1.display();
-
-    // System.out.println("");
-    // Employee emp2 = new Employee();
-    // emp2.eid = 101;
-    // emp2.ename = "John";
-    // emp2.esal = 50000;
-    // emp2.job = "Engineer";
-    // emp2.display();
-    // }
 }

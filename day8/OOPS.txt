@@ -12,6 +12,11 @@ Object -
 3. Objects are independent.
 4. We can create any number of objects for one class.
 
+Assign the data using 3 approaches -
+1. By object reference variable
+2. By creating setData method
+3. By Constructors
+
 Methods
 
 

@@ -2,6 +2,8 @@ package day8;
 
 public class EmployeeMain {
     public static void main(String[] args) {
+
+        // Approach 1: access variables using reference variable
         Employee emp1 = new Employee();
         emp1.eid = 101;
         emp1.ename = "John";

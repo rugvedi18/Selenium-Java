@@ -17,10 +17,6 @@ Assign the data using 3 approaches -
 2. By creating setData method
 3. By Constructors
 
-Methods
-
-
-
 className object = new classNmae()
 class Employee {
     // variables

@@ -24,11 +24,11 @@ public class ConstructorDemo {
     }
 
     public static void main(String[] args) {
-        // Default cconstructor
+        // Invoking Default cconstructor
         // ConstructorDemo d1 = new ConstructorDemo();
         // d1.DisplayData();
 
-        // Parameterized Constructor
+        // Invoking Parameterized Constructor
         ConstructorDemo d1 = new ConstructorDemo(10, 20, "Hellow");
         d1.DisplayData();
     }

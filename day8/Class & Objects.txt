@@ -1,5 +1,3 @@
-Object Oriented Programming Concept
-
 Class - 
 1. Class is a collection of attributes and behavior.
 2. It is a logical entity and it does not occupy any space in memory. (e.g - Animal)

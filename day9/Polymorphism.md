@@ -1,4 +1,4 @@
-# Polymorphism
+# Polymorphism - Overloading
 It can be achieved by using overloading concept.
 
 ## Four rules are applicable in overloading :-

@@ -23,20 +23,24 @@ public class StaticExample {
         m2(); // non-static
     }
 
-    public static void main(String[] args) {
-        // Static methods can access static stuff directly without creating an object
-        System.out.println(a);
-        // An error will appear - Cannot make a static ref to the non-static field
-        // System.out.println(b);
-        StaticExample se = new StaticExample();
-        System.out.println(se.b);
+    // Main method moved into StaticMain.java
 
-        m1();
-        // An error will appear - Cannot make a static ref to the non-static method
-        // m2();
-        se.m2();
-
-        se.m();
-
-    }
+    /*
+     * public static void main(String[] args) {
+     * // Static methods can access static stuff directly without creating an object
+     * System.out.println(a);
+     * // An error will appear - Cannot make a static ref to the non-static field
+     * // System.out.println(b);
+     * StaticExample se = new StaticExample();
+     * System.out.println(se.b);
+     * 
+     * m1();
+     * // An error will appear - Cannot make a static ref to the non-static method
+     * // m2();
+     * se.m2();
+     * 
+     * se.m();
+     * 
+     * }
+     */
 }

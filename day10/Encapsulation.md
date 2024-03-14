@@ -13,4 +13,3 @@ Advantage :- Avoids duplication
 1. Prevents unnecessary memory allocation
 2. Static methods can access static stuff directly without creating object
 3. Static methods can access non-static stuff using object
-4. 

@@ -36,4 +36,6 @@ Why multiple inheritance is not supported in Java?
 ## Super keyword
 - Related to Overriding
 Using object of child class but want to fetch Parent class then super is used
-- Super keyword invokes immediate parent class variable
+- Super keyword invokes immediate parent class variable and method
+
+// Keywords - static, this, super, final

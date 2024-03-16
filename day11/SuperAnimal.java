@@ -12,7 +12,8 @@ class Dog extends SuperAnimal {
     String color = "black";
 
     void eat() {
-        System.out.println("eating bread");
+        System.out.println("eating bread"); // child eat method
+        super.eat(); // parent eat method
     }
 
     void displayColor() {

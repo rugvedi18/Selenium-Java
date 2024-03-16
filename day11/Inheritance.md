@@ -22,9 +22,11 @@ Why multiple inheritance is not supported in Java?
 
 ## Overriding
 - Overriding means a subclass method has the same name and signature as a method in its superclass, changing its behavior.
-- Overriding is possible in inheritance (when we have atleast two classes)
-- Overriding is applicable for methods and variables
+- Possible only in multiple classes/inheritance (when we have atleast two classes)
+- Applicable for methods and variables
+- We should not change the definition of method but we can change body. Method names are same.
 
 ## Overloading
 - Overloading allows multiple methods to have the same name with different parameters.
-- Overloading is possible in encapsulation (when we have only one class)
+- Possible in single & multiple classes/inheritance
+- We should change the definition of the method. Method names are same.

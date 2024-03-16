@@ -34,7 +34,7 @@ static public void main (String args[])
 
 }
 
-## main method can be overloaded but only when you will change the parameters
+## Main method can be overloaded but only when you will change the parameters
 ## but based on the parameters, JVM will decide which is the actual main method so that it can start execution and object creation from that method
 
 public static void main (int a)

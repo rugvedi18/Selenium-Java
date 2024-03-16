@@ -3,7 +3,7 @@
 Advantage :- Privacy of data
 
 1. Wrapping up of data and methods into single unit (class).
-2. We can access variables only through methods (setters & getters)
+2. We cannot directly access the data, we can access variables only through methods (setters & getters)
 3. All variables should be private.
 
 ## Static keyword

@@ -25,8 +25,15 @@ Why multiple inheritance is not supported in Java?
 - Possible only in multiple classes/inheritance (when we have atleast two classes)
 - Applicable for methods and variables
 - We should not change the definition of method but we can change body. Method names are same.
+- Related to inheritance
 
 ## Overloading
 - Overloading allows multiple methods to have the same name with different parameters.
 - Possible in single & multiple classes/inheritance
 - We should change the definition of the method. Method names are same.
+- Related to polymorphism
+
+## Super keyword
+- Related to Overriding
+Using object of child class but want to fetch Parent class then super is used
+- Super keyword invokes immediate parent class variable

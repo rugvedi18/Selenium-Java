@@ -23,3 +23,9 @@
 2. Parameterized Constructor - Constructor which has Parameters
 
 (ctrl + k v to see md preview)
+
+## Object Oriented Programming Concepts:-
+1. Polymorphism
+2. Encapsulation
+3. Inheritance
+4. Abstraction

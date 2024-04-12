@@ -1,4 +1,3 @@
-package day12;
 
 public class MainClass implements Interface1, Interface2 {
     public void m1() {

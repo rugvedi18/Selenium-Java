@@ -1,4 +1,3 @@
-package Assignments;
 
 public class BubbleSortArray {
     public static void main(String[] args) {

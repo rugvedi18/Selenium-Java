@@ -1,4 +1,3 @@
-package day12;
 
 // we cannot use multiple inheritance for classes but for interfaces
 

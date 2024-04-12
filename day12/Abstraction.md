@@ -7,7 +7,7 @@ If you use interface, you can achieve 100% data abstraction
 
 ## Interface
 
-1. An interface os blueprint of a class.
+1. An interface is a blueprint of class.
    interface i1
    {
    variables
@@ -16,7 +16,7 @@ If you use interface, you can achieve 100% data abstraction
    Interface contains by default static & final variables.
 
 2. Interface contains abstract methods. (also allows default methods & static methods from java8 onwards)
-   Therefore, class can implements interface but interface cannot implements class.
+   Therefore, class can implement a interface but interface cannot implement a class.
 
 ## An abstract method is a method contains definition but no body (un-implemented method)
 

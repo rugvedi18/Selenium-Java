@@ -1,4 +1,3 @@
-
 public class BubbleSortArray {
     public static void main(String[] args) {
         int temp = 0;

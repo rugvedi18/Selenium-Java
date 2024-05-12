@@ -1,4 +1,7 @@
+package Assignments;
+
 public class BubbleSortArray {
+
     public static void main(String[] args) {
         int temp = 0;
         int a[] = { 2, 3, 1, 5, 4 };

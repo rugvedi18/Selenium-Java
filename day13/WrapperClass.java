@@ -27,7 +27,7 @@ public class WrapperClass {
         Character charobj = c;
         Boolean boolobj = b2;
 
-        System.out.println(intobj);
+        System.out.println(boolobj);
 
         // converting objects into primitive : Unboxing
         byte bytevalue = byteobj;
@@ -37,8 +37,15 @@ public class WrapperClass {
         float floatvalue = floatobj;
         double doublevalue = doubleobj;
         char charvalue = charobj;
+        // bool boolvalue = boolobj; bool cannot be resolved to a type
 
+        System.out.println(bytevalue);
+        System.out.println(shortvalue);
         System.out.println(intvalue);
+        System.out.println(longvalue);
+        System.out.println(floatvalue);
+        System.out.println(doublevalue);
+        System.out.println(charvalue);
 
     }
 }

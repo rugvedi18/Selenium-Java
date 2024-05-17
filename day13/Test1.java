@@ -9,6 +9,11 @@ public class Test1 {
         System.out.println("This is m1 private method");
     }
 
+    public void someOtherMethod() {
+        System.out.println(a);
+        m1();
+    }
+
     // default - can be access within the package
     int b = 200;
 

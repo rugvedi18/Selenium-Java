@@ -1,6 +1,6 @@
 package day13;
 
-import day13.package1.Test2; // when you have to access class from another package, you have to use import
+// import day13.package1.Test2; // when you have to access class from another package, you have to use import
 
 public class TestMain {
     public static void main(String[] args) {

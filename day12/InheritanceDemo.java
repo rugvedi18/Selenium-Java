@@ -1,3 +1,4 @@
+package day12;
 
 // we cannot create an object of an interface so we have to create child class of this interface
 interface Shape {

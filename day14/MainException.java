@@ -7,7 +7,6 @@ public class MainException {
         System.out.println("Program is started..");
 
         try {
-            String s = null;
             int num = 0;
             System.out.println(100 / num);
             System.out.println();

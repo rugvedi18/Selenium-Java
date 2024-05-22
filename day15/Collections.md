@@ -12,12 +12,11 @@ To overcome these limitations, we use collections in Java.s
 
           Collection (Root interface)                       Map (Interface)
             /                      \                              |
-        extended                extended                    HashMap (class)
+         extends                 extends                   HashMap (class)
     List (Child interface)   Set (Child interface)
-            |                      |
-      implemented by         implemented by
-        ArrayList                Hashset
-         (Class)                 (Class)
+            |                        |
+      implements                implements
+     ArrayList(Class)          Hashset(Class)
 
 # Interface vs Class
 
@@ -60,9 +59,22 @@ private String model;
 
 }
 
-# ArrayList - is a class implemented by List Interface
+# ArrayList - is a class implements List Interface
 
-1. heterogeneoud data is allowed (Multiple data types)
+1. Heterogeneous data is allowed (Multiple data types)
 2. Insertion order is preserved (Indexing)
 3. Duplicate elements are allowed
 4. Multiple null values are allowed
+
+# HashSet - is a class implements Set Interface
+
+1. Heterogeneous data is allowed (Multiple data types)
+2. Insertion order is not preserved (Indexing not supported) Data is stored randomly by searching free space available.
+3. Duplicate elements are not allowed
+4. Multiple null values are not allowed/ only single null value is allowed.
+
+# HashMap - is a class implements Map Interface
+
+1. Data can be stored in the form of key-value pairs.
+2. Key is unique but we can have duplicate values.
+3. Insertion order is not preserved (Indexing not supported)

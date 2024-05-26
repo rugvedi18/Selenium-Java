@@ -17,3 +17,9 @@ WebDriver (Interface)
 implements
 |
 BrowserDrivers
+
+## Setup Webdriver in Eclipse (Manually)
+
+1. Selenium client library - collection of jar files (.jar)
+2. Browser specific drivers - to communicate with browsers (.exe)
+3. Browser (chrome, edge, firefox)

@@ -18,8 +18,16 @@ implements
 |
 BrowserDrivers
 
-## Setup Webdriver in Eclipse (Manually)
+## Setup Webdriver in Eclipse (Manually) (Not recommended)
 
 1. Selenium client library - collection of jar files (.jar)
 2. Browser specific drivers - to communicate with browsers (.exe)
 3. Browser (chrome, edge, firefox)
+
+## Setup Webdriver in Eclipse (Automatic) (Recommended)
+
+Create maven project
+pom.xml -> add dependencies (download from mvnrepository.com)
+
+when you change pom.xml, update the project
+right click on project name -> Maven -> update project

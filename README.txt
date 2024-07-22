@@ -24,4 +24,5 @@ https://demo.opencart.com/admin/                (recommended)
 http://automationpractice.com/                  (recommended)
 https://demo.guru99.com/                        (recommended)
 https://www.globalsqa.com/demo-site/            (recommended)
-https://magento.softwaretestingboard.com        (working)
+https://magento.softwaretestingboard.com
+https://jqueryui.com/

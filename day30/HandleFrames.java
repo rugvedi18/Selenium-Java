@@ -34,6 +34,7 @@ public class HandleFrames {
 		// Switch to main page
 		driver.switchTo().defaultContent();
 
+		// Frame 3
 		WebElement frame3 = driver.findElement(By.xpath("//frame[@src='frame_3.html']"));
 		driver.switchTo().frame(frame3);
 		driver.findElement(By.cssSelector("input[name='mytext3']")).sendKeys("Automation");

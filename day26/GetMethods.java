@@ -47,7 +47,7 @@ public class GetMethods {
 		// Initialize WebDriverWait
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
-		// Wait for the username input field to be visible, then send keys
+		// Wait for the user name input field to be visible, then send keys
 		WebElement usernameField = wait
 				.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input[placeholder='Username']")));
 		usernameField.sendKeys("Admin");

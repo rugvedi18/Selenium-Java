@@ -1,5 +1,3 @@
-package notes;
-
 import org.openqa.selenium.BuildInfo;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;

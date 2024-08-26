@@ -33,6 +33,7 @@ public class Assignment {
 		List<WebElement> links = driver.findElements(By.partialLinkText("Selenium"));
 		// 2. Count number of links
 		System.out.println("No of links: " + links.size());
+		
 		// 3. Click on each link using for loop
 		for (int i = 0; i < links.size(); i++) {
 			links.get(i).click();

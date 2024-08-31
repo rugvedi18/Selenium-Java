@@ -1,3 +1,4 @@
+package day6;
 /*  
 1) Declare an array
 2) Insert values into array

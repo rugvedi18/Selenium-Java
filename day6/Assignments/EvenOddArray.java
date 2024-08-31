@@ -1,5 +1,4 @@
-package Assignments;
-
+package day6.Assignments;
 public class EvenOddArray {
     public static void main(String[] args) {
 

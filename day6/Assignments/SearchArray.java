@@ -1,5 +1,4 @@
-package Assignments;
-
+package day6.Assignments;
 import java.util.Scanner;
 
 public class SearchArray {

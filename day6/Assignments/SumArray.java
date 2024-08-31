@@ -1,4 +1,4 @@
-package Assignments;
+package day6.Assignments;
 
 public class SumArray {
     public static void main(String[] args) {

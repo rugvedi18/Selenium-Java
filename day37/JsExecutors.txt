@@ -1,0 +1,20 @@
+WebDriver driver = new ChromeDriver();
+JavascriptExecutor js = (JavascriptExecutor) driver;
+
+// 1) Scroll down page by pixel number
+      js.executeScript("window.scrollBy(0,1000)", "");
+		
+// 2) Scroll the page till element is visible
+      js.executeScript("arguments[0].scrollIntoView()", ele);
+      
+// 3) Scroll page till end of the page
+      js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+      
+// 4) Passing the text into input box - alternate of sendKeys()
+      js.executeScript("arguments[0].setAttribute('value', 'John')", inputbox);
+      
+// 5) Clicking the element - alternate of java click()
+	  js.executeScript("arguments[0].click()", radiobtn);
+	  
+// 6) Adjust zoom in or zoom out
+      js.executeScript("document.body.style.zoom='50%'");

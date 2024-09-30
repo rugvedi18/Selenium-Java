@@ -1,0 +1,23 @@
+# Websites for Practicing Automation Testing
+
+https://testautomationpractice.blogspot.com/			(recommended) - practice elements
+https://www.saucedemo.com/								(recommended) - e2e ecommerce
+https://demoqa.com/										(recommended) - practice elements
+https://opensource-demo.orangehrmlive.com/				(recommended) - e2e management application								
+https://practice.expandtesting.com/             		(recommended) - practice elements
+https://the-internet.herokuapp.com/						(recommended) - practice elements         		
+https://demo.opencart.com/                      		(recommended) - ecommerce
+
+https://demo.nopcommerce.com/computers					(recommended) - ecommerce
+https://jqueryui.com/									- practice elements
+https://demo.guru99.com/test/guru99home/				- practice elements
+https://www.globalsqa.com/demo-site/            		- practice elements
+https://magento.softwaretestingboard.com				- ecommerce
+
+https://ui.vision/demo/webtest/frames/					- for iframe
+https://swisnl.github.io/jQuery-contextMenu/demo.html	(Advanced)
+
+Checks verify for human
+
+https://demo.nopcommerce.com/
+http://admin-demo.nopcommerce.com/

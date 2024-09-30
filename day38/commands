@@ -1,0 +1,25 @@
+1) For Headless testing
+ChromeOptions options = new ChromeOptions();
+options.addArguments("--headless=new");
+
+2) To accept SSL certificate
+ChromeOptions options = new ChromeOptions();
+options.setAcceptInsecureCerts(true);
+
+3) To remove "chrome is being controlled by automated test software"
+ChromeOptions options = new ChromeOptions();
+options.setExperimentalOption("excludeSwitches", new String[] {"enable-automation"});
+
+4) To run the tests in incognito mode
+ChromeOptions options = new ChromeOptions();
+options.addArguments("--incognito");
+
+5) To enable extensions in automation page
+Step 1: Add CRX Extractor/Downloader to chrome browser
+Step 2: Add SelectorsHub plugin to chrome browser
+Step 3: Capture CRX file for SelectorsHub extension (right click on SelectorsHub extension and download crx file)
+Step 4: Pass CRX file path in automation script in Chrome options
+
+ChromeOptions options = new ChromeOptions();
+File file = new File("C:\\path\\SelectorsHub.crx);
+options.addExtensions("file");

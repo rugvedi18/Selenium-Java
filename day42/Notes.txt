@@ -1,0 +1,22 @@
+TestNG (Test New Generation) - unit testing framework
+
+Advantages
+--------------------
+1) Manage test cases & test suites
+2) Grouping of test cases
+3) Prioritize execution
+4) Parameterization (eg choosing browser)
+5) Parallel testing
+6) Report generation
+
+Configuration
+--------------------
+1. Eclipse workspace -> search TestNG -> install
+					  OR
+2. Go to mvn repository -> search TestNG -> copy dependency code and add into pom.xml
+
+Execution of the code
+--------------------
+1. Right click -> Run as -> TestNG Test
+					OR
+2. Right click pn file -> TestNG -> convert to TestNG (Through XML file, we can run multiple test cases, in xml file -> right click -> run as -> testNG suite

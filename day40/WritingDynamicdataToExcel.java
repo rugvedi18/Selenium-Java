@@ -19,21 +19,21 @@ public class WritingDynamicdataToExcel {
 
 		XSSFSheet sheet = workbook.createSheet("Dynamic Data"); // create a sheet
 
-		Scanner sc = new Scanner(System.in);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Enter no of rows: ");
+			int noOfRows = sc.nextInt();
 
-		System.out.println("Enter no of rows: ");
-		int noOfRows = sc.nextInt();
+			System.out.println("Enter no of cells: ");
+			int noOfCells = sc.nextInt();
 
-		System.out.println("Enter no of cells: ");
-		int noOfCells = sc.nextInt();
+			for (int r = 0; r < noOfRows; r++) {
 
-		for (int r = 0; r < noOfRows; r++) {
+				XSSFRow currentRow = sheet.createRow(r); // created new row
 
-			XSSFRow currentRow = sheet.createRow(r); // created new row
-
-			for (int c = 0; c < noOfCells; c++) {
-				XSSFCell cell = currentRow.createCell(c); // created new cell
-				cell.setCellValue(sc.next()); // taking cell data from the user
+				for (int c = 0; c < noOfCells; c++) {
+					XSSFCell cell = currentRow.createCell(c); // created new cell
+					cell.setCellValue(sc.next()); // taking cell data from the user
+				}
 			}
 		}
 

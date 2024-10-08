@@ -1,0 +1,20 @@
+TestNG (Test New Generation) - unit testing framework
+
+---------------------
+TestNG Annotations
+---------------------
+@Test	@BeforeMethod, @AfterMethod		@BeforeClass,@AfterClass	@BeforeTest,@AfterTest		@BeforeSuite,@AfterSuite
+
+---------------------
+Hierarchy
+---------------------
+Suit ---> Test ---> Class ---> Method
+Bs,As --> Bt,At --> Bc,Ac --> Bm,Am
+
+---------------------
+Assertions (Assert from org.testng)
+---------------------
+1. Hard Assertions
+   Drawback - if hard assertion fails, code will not execute statements present after the assertion
+
+2. Soft Assertions - 

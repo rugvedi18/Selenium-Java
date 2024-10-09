@@ -6,6 +6,14 @@ TestNG Annotations
 @Test	@BeforeMethod, @AfterMethod		@BeforeClass,@AfterClass	@BeforeTest,@AfterTest		@BeforeSuite,@AfterSuite
 
 ---------------------
+TestNG Parameters/Attributes
+---------------------
+priority = 1
+dependsOnMethods = { "login" }
+groups = { "sanity" }
+
+
+---------------------
 Hierarchy
 ---------------------
 Suit ---> Test ---> Class ---> Method
@@ -17,4 +25,5 @@ Assertions (Assert from org.testng)
 1. Hard Assertions
    Drawback - if hard assertion fails, code will not execute statements present after the assertion
 
-2. Soft Assertions - 
+2. Soft Assertions
+   Drawback - if soft assertion fails, code will continue to execute statements present after the assertion

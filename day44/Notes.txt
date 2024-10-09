@@ -1,0 +1,38 @@
+TestNG (Test New Generation) - unit testing framework
+
+---------------------
+Grouping
+---------------------
+In testng.xml, we willa dd the following code as per the requirement
+
+login by email - sanity
+login by facebook - sanity
+login by twitter - sanity
+
+sign up by email - regression
+sign up by facebook - regression
+sign up by twitter - regression
+
+payment in Rupees - sanity, regression or functional (sanity + regression)
+payment in dollars - sanity, regression or functional (sanity + regression)
+
+		
+1. If you want to run only sanity <include name="sanity" /> 
+	// output - 5
+	
+2. If you want to run only regression <include name="regression" />
+	// output - 5
+	
+3. If you want to run sanity but not regression 
+	// output - 3
+	
+	<groups>
+		<run>
+			<include name="sanity" />
+			<exclude name="regression" />
+		</run>
+	</groups>
+
+
+4. If you want to run sanity + regression
+	// output - 2

@@ -1,0 +1,17 @@
+TestNG (Test New Generation) - unit testing framework
+
+---------------------
+Parameterization
+---------------------
+1. @DataProvider -->  data drivern testing (a method which creatensome data and pass it to the another test methods)
+2. Using XML file --> parallel testing
+
+---------------------
+Parallel testing using XML file
+---------------------
+
+step 1) created test case
+step 2) create xml file then run test case through xml
+step 3) passed broweser name, url as parameters from xml file to setup() method [@Parameters({ "browser" })]
+step 4) execute test case on chrome, firefox and Edge (serial execution) [<parameter name="browser" value="chrome"> or firefox or edge]
+step 5) execute test case on chrome, firefox and Edge (parallel execution) [<suite name="Suite" parallel="tests">]

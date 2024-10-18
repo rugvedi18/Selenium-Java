@@ -1,0 +1,42 @@
+TestNG Listeners
+-----------------------
+To create post actions after execution is done, we use Listener class.
+
+Step 1. Create test case
+Step 2. Create listener class (I Test Listner is an interface)
+Step 3. Create xml file and include both test case & listener class
+
+---------------------------------------
+Methods of implementing listener class
+---------------------------------------
+Method 1
+--------
+class myListener implements ITestListener
+{
+
+}
+
+--------
+Method 2
+--------
+class myListener extends TestListenerAdapter
+{
+
+}
+
+-------------
+Extent report
+-------------
+Third party dependency, get from - https://extentreports.com/ OR mvnrepository - extentreports
+
+ExtentSparkReporter - UI of the report
+ExtentReports - populate common info on the report (OS name, browser name, model name)
+ExtentTest - creating test cases in the report and update status of the test methods
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+Page Object Model
+
+
+1. Identify all the pages
+2. Create a page object class for each page
+3. Create a test case class (will have only Test Methods and Validations)
+
+
+Create page object classes 2 ways -
+1) without using pageFactory
+2) using pageFactory
+
+Page Object class has -
+1. Constructor
+2. Locators
+3. Action methods

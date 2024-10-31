@@ -43,4 +43,22 @@ https://tutorialsninja.com/demo
 https://magento.softwaretestingboard.com
 XAMPP
 
-	
+--------------
+Day 49
+--------------
+Step 1) Test case: Account Registration
+
+Setting up the project
+Adding dependencies, creating folder structure, packages, classes, test cases etc..
+Writing test cases for Account Registration
+
+--------------
+Day 50
+--------------
+Step 2) Adding logs to test case (log4j2)
+
+Logging - record all the events in the form of text
+Log Levels - All < Trace < Debug < Info < Warn < Error < Fatal < Off
+Appenders - where you want to generate the log (console/file)
+Loggers - what type of log you want to generate (All < Trace < Debug < Info < Warn < Error < Fatal < Off)
+Dependencies - log4j-core, log4j-api

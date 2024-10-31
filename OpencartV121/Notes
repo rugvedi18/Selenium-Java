@@ -1,0 +1,14 @@
+Folder structure:
+
+OpenCart
+	- src/test/java
+		- pageObjects (stores web page classes)
+		- testBase (holds base setup files)
+		- testCases (this package contains only test cases)
+		- utilities (this package contains utility files e.g. ExcelUtils.java, ExtentReportManager.java)
+		
+	- src/test/resources (test resource files)
+	- logs (logs test results)
+	- reports (stores test reports)
+	- screenshots (saves test screenshots)
+	- testData (holds data for test)

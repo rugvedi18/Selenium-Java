@@ -1,23 +1,26 @@
-# Websites for Practicing Automation Testing
+# Web sites for Practicing Automation Testing
 
-https://testautomationpractice.blogspot.com/			(recommended) - practice elements
-https://www.saucedemo.com/								(recommended) - e2e ecommerce
-https://demoqa.com/										(recommended) - practice elements
-https://opensource-demo.orangehrmlive.com/				(recommended) - e2e management application								
-https://practice.expandtesting.com/             		(recommended) - practice elements
-https://the-internet.herokuapp.com/						(recommended) - practice elements         		
-https://demo.opencart.com/                      		(recommended) - ecommerce
+https://testautomationpractice.blogspot.com 			(recommended) - practice elements
+https://dev.automationtesting.in/form					(recommended) - practice elements, E-commerce
+https://tutorialsninja.com/demo							(recommended) - E-commerce
 
-https://demo.nopcommerce.com/computers					(recommended) - ecommerce
-https://jqueryui.com/									- practice elements
-https://demo.guru99.com/test/guru99home/				- practice elements
-https://www.globalsqa.com/demo-site/            		- practice elements
-https://magento.softwaretestingboard.com				- ecommerce
+https://www.saucedemo.com								(recommended) - E-commerce
+https://demoqa.com										(recommended) - practice elements
+https://opensource-demo.orangehrmlive.com				(recommended) - e2e management application								
+https://practice.expandtesting.com              		(recommended) - practice elements
+https://the-internet.herokuapp.com						(recommended) - practice elements
+https://demo.nopcommerce.com/computers					(recommended) - E-commerce
 
-https://ui.vision/demo/webtest/frames/					- for iframe
+https://jqueryui.com									- practice elements
+https://demo.guru99.com/test/guru99home 				- practice elements
+https://www.globalsqa.com/demo-site             		- practice elements
+https://magento.softwaretestingboard.com				- E-commerce
+https://ui.vision/demo/webtest/frames					- for iFrame
+http://www.deadlinkcity.com 							- for errors, broken images
 https://swisnl.github.io/jQuery-contextMenu/demo.html	(Advanced)
 
 Checks verify for human
 
-https://demo.nopcommerce.com/
-http://admin-demo.nopcommerce.com/
+https://demo.opencart.com
+https://demo.nopcommerce.com
+http://admin-demo.nopcommerce.com

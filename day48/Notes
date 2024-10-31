@@ -1,0 +1,46 @@
+Automation Framework (Day-48 to Day-54)
+
+Objectives
+--------------
+1. Re-usability
+2. Maintainability
+3. Readability
+
+
+Types of Frameworks
+--------------
+1. Built-in
+	E.g. TestNG, JUnit, Cucumber, Robot...
+
+2. Customized (user defined)
+	E.g. Modular framework, Data Driven, Keyword Driven, Hybrid Driven...
+	
+
+Phases/Stages
+--------------
+1) Analyzing AUT
+	- Number of pages
+	- what are all elements / how / type
+	- What to automate / what we cannot automate
+	
+2) Choose test cases for automation
+	what is 100% automation - to check all the 100 test cases can be automated
+	if 100 test cases --- 90 can be automated, 10 cannot be automated, this is not 100% automation
+	
+Priorities
+1. Sanity test - P1
+2. Data driven test cases/re tests - P2
+3. Regression test cases - P3
+4. Any other cases - P4
+
+3) Design & Development of framework
+4) Execution - locally, remotely
+5) Maintenance
+
+OpenCartSetup
+---------------
+https://tutorialsninja.com/demo
+https://magento.softwaretestingboard.com
+XAMPP
+
+	

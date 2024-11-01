@@ -2,7 +2,7 @@
 
 https://testautomationpractice.blogspot.com 			(recommended) - practice elements
 https://dev.automationtesting.in/form					(recommended) - practice elements, E-commerce
-https://tutorialsninja.com/demo							(recommended) - E-commerce
+https://tutorialsninja.com/demo (openCart)				(recommended) - E-commerce
 
 https://www.saucedemo.com								(recommended) - E-commerce
 https://demoqa.com										(recommended) - practice elements
@@ -19,8 +19,8 @@ https://ui.vision/demo/webtest/frames					- for iFrame
 http://www.deadlinkcity.com 							- for errors, broken images
 https://swisnl.github.io/jQuery-contextMenu/demo.html	(Advanced)
 
-Checks verify for human
 
+Checks verify for human
 https://demo.opencart.com
 https://demo.nopcommerce.com
 http://admin-demo.nopcommerce.com

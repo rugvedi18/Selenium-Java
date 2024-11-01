@@ -1,47 +1,38 @@
-22:44:32.929 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Rugvedi\AppData\Local\Temp\testng-eclipse--1930536901\testng-customsuite.xml"
-22:44:33.257 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.261 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-22:44:33.263 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.263 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-22:44:33.264 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.265 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-22:44:33.266 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.266 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-22:44:33.285 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 11 ms.
-22:44:33.294 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
-22:44:33.295 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.296 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-22:44:33.297 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.297 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-22:44:33.298 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.298 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-22:44:33.307 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.307 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-22:44:33.308 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.308 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-22:44:33.312 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.312 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-22:44:33.312 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.312 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-22:44:33.313 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.313 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-22:44:33.315 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.315 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-22:44:33.316 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-22:44:33.316 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-22:44:33.327 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\Rugvedi\AppData\Local\Temp\testng-eclipse--1930536901\testng-customsuite.xml
+15:40:05.928 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Rugvedi\eclipse-workspace\OpencartV121\master.xml"
+15:40:06.122 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Rugvedi\eclipse-workspace\OpencartV121\master.xml
 
-22:44:33.374 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
-22:44:40.525 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
-22:44:42.169 [main] INFO  testCases.TC001_AccountRegistrationTest - licked on Create Account link..
-22:44:42.177 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details..
-22:44:47.254 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
-22:44:47.312 [main] ERROR testCases.TC001_AccountRegistrationTest - *Test Failed*
-22:44:47.313 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs..
-22:44:48.176 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@4e4c3a38: 146 ms
-22:44:48.196 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@41c204a0: 20 ms
-22:44:48.216 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@3c7cfcbb: 20 ms
-22:44:48.227 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@63da207f: 11 ms
-22:44:48.242 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7c455e96: 15 ms
-22:44:48.242 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@985696: 0 ms
+15:40:10.081 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+15:40:10.692 [main] INFO  testCases.TC001_AccountRegistrationTest - licked on Create Account link..
+15:40:10.694 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details..
+15:40:12.033 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
+15:40:12.068 [main] ERROR testCases.TC001_AccountRegistrationTest - *Test Failed*
+15:40:12.068 [main] DEBUG testCases.TC001_AccountRegistrationTest - Debug logs..
+15:41:52.150 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Rugvedi\eclipse-workspace\OpencartV121\master.xml"
+15:41:52.349 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Rugvedi\eclipse-workspace\OpencartV121\master.xml
+
+15:41:56.143 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+15:41:56.757 [main] INFO  testCases.TC001_AccountRegistrationTest - licked on Create Account link..
+15:41:56.759 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details..
+15:41:58.133 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
+15:41:58.163 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+15:42:06.611 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Rugvedi\eclipse-workspace\OpencartV121\crossBrowserTesting.xml"
+15:42:06.828 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Rugvedi\eclipse-workspace\OpencartV121\crossBrowserTesting.xml
+
+15:42:10.863 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+15:42:11.527 [main] INFO  testCases.TC001_AccountRegistrationTest - licked on Create Account link..
+15:42:11.528 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details..
+15:42:12.919 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
+15:42:12.958 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+15:42:16.955 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+15:42:17.629 [main] INFO  testCases.TC001_AccountRegistrationTest - licked on Create Account link..
+15:42:17.631 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details..
+15:42:18.999 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
+15:42:19.034 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***
+15:42:26.689 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Starting TC001_AccountRegistrationTest ***
+15:42:27.454 [main] INFO  testCases.TC001_AccountRegistrationTest - licked on Create Account link..
+15:42:27.455 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details..
+15:42:28.607 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected msg..
+15:42:28.622 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest ***

@@ -10,25 +10,31 @@ public class AccountRegistrationPage extends BasePage {
 		super(driver);
 	}
 
-	@FindBy(xpath = "//input[@id='firstname']")
+	@FindBy(xpath = "//input[@id='input-firstname']")
 	WebElement txtFirstname;
 
-	@FindBy(xpath = "//input[@id='lastname']")
+	@FindBy(xpath = "//input[@id='input-lastname']")
 	WebElement txtLastname;
 
-	@FindBy(xpath = "//input[@id='email_address']")
+	@FindBy(xpath = "//input[@id='input-email']")
 	WebElement txtEmail;
 
-	@FindBy(xpath = "//input[@id='password']")
+	@FindBy(xpath = "//input[@id='input-telephone']")
+	WebElement txtTelephone;
+
+	@FindBy(xpath = "//input[@id='input-password']")
 	WebElement txtPassword;
 
-	@FindBy(xpath = "//input[@id='password-confirmation']")
+	@FindBy(xpath = "//input[@id='input-confirm']")
 	WebElement txtConfirmPassword;
 
-	@FindBy(xpath = "//button[@title='Create an Account']")
-	WebElement btnCreateAcc;
+	@FindBy(xpath = "//input[@name='agree']")
+	WebElement chkAgree;
 
-	@FindBy(xpath = "//div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']")
+	@FindBy(xpath = "//input[@value='Continue']")
+	WebElement btnContinue;
+
+	@FindBy(xpath = "//h1[normalize-space()='Your Account Has Been Created!']")
 	WebElement msgConfirmation;
 
 	public void setFirstName(String fname) {
@@ -43,6 +49,10 @@ public class AccountRegistrationPage extends BasePage {
 		txtEmail.sendKeys(email);
 	}
 
+	public void setTelephone(String telephone) {
+		txtTelephone.sendKeys(telephone);
+	}
+
 	public void setPassword(String pwd) {
 		txtPassword.sendKeys(pwd);
 	}
@@ -52,27 +62,8 @@ public class AccountRegistrationPage extends BasePage {
 	}
 
 	public void clickContinue() {
-		// sol1
-		btnCreateAcc.click();
-
-		// sol2
-		// btnContinue.submit();
-
-		// sol3
-		// Actions act=new Actions(driver);
-		// act.moveToElement(btnContinue).click().perform();
-
-		// sol4
-		// JavascriptExecutor js=(JavascriptExecutor)driver;
-		// js.executeScript("arguments[0].click();", btnContinue);
-
-		// Sol 5
-		// btnContinue.sendKeys(Keys.RETURN);
-
-		// Sol6
-		// WebDriverWait mywait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		// mywait.until(ExpectedConditions.elementToBeClickable(btnContinue)).click();
-
+		chkAgree.click(); // click check box privacy policy
+		btnContinue.click();
 	}
 
 	public String getConfirmationMsg() {
